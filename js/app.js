@@ -5,7 +5,6 @@ function verificar() {
         numeros.push(document.getElementById(`numero__${i + 1}`).value);
         // console.log(numeros[i]);
         // console.log(numeros.length);
-
     }
     numeros.sort(ordenador);
     alert(`Os numeros ordenados? ${numeros}`);
